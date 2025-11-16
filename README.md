@@ -1,8 +1,6 @@
 tooncsv
 =======
 
-This repository is archived to be a [MR](https://github.com/toon-format/toon-python/pull/39) to the official repo : https://github.com/toon-format/toon-python
-
 Overview
 --------
 
