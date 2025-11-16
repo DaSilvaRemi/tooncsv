@@ -1,0 +1,17 @@
+[project]
+name = "tooncsv"
+version = "0.1.0"
+description = "Convert toon encoded data to CSV files"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.3.3",
+    "toon-format",
+]
+
+[tool.uv.sources]
+toon-format = { git = "https://github.com/toon-format/toon-python.git" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tooncsv*"]
